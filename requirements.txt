@@ -1,0 +1,13 @@
+# Web Scraping and Browser Automation
+selenium>=4.15.0
+undetected-chromedriver>=3.5.0
+webdriver-manager>=4.0.0
+
+# Computer Vision and OCR
+opencv-python>=4.8.0
+pytesseract>=0.3.10
+numpy>=1.24.0
+Pillow>=9.0.0
+
+# Additional utilities
+requests>=2.31.0
