@@ -135,16 +135,6 @@ Los perfiles se guardan en `val_HbM.json` con estructura:
 - Cumple con regulaciones locales
 - Uso únicamente para investigación legítimaer Scraper ES
 
-🔍 Una herramienta simple y modular para extraer perfiles de Tinder con fines de investigación académica.
-
-## ⚠️ Aviso Legal
-
-Este proyecto está destinado únicamente para **fines de investigación académica y educativos**. El uso de este scraper debe cumplir con:
-
-- Los términos de servicio de Tinder
-- Las leyes locales de privacidad y protección de datos
-- Los principios éticos de investigación
-
 **El usuario es responsable del uso ético y legal de esta herramienta.**
 
 ## 🚀 Características
@@ -354,15 +344,6 @@ Las contribuciones son bienvenidas. Por favor:
 ## 📄 Licencia
 
 Este proyecto está bajo la Licencia MIT. Ver `LICENSE` para más detalles.
-
-## ⚖️ Consideraciones Éticas
-
-Este scraper debe utilizarse de manera responsable:
-
-- Respeta la privacidad de los usuarios
-- No uses los datos para hostigamiento o spam
-- Cumple con las regulaciones locales de protección de datos
-- Usa únicamente para investigación académica legítima
 
 ## 📬 Contacto
 
