@@ -1,5 +1,140 @@
 # Simple Tinder Scraper ES
 
+🔍 Herramienta simple para extraer perfiles de Tinder con fines de investigación académica.
+
+## ✅ Estado: COMPLETAMENTE FUNCIONAL
+
+- ✅ **Scraper operativo** - `scraper_simple.py` funcionando al 100%
+- ✅ **Verificación configurada** - Detección automática de perfiles verificados
+- ✅ **OCR integrado** - Verificación de nombres con Tesseract
+- ✅ **Configuración simple** - Un solo archivo JSON
+
+## ⚠️ Aviso Legal
+
+Esta herramienta está destinada únicamente para fines de investigación académica y educativos. El uso debe cumplir con:
+- Los términos de servicio de Tinder
+- Las leyes locales de privacidad y protección de datos
+- Los principios éticos de investigación
+
+## 🚀 Uso Rápido
+
+### Instalación
+```bash
+# Activar entorno virtual
+source venv/bin/activate  # Linux/Mac
+# o
+venv\Scripts\activate     # Windows
+
+# Las dependencias ya están instaladas
+```
+
+### Comandos Básicos
+```bash
+# Modo básico (10 perfiles)
+./venv/bin/python scraper_simple.py
+
+# Extraer 5 perfiles
+./venv/bin/python scraper_simple.py --profiles 5
+
+# Personalizar probabilidad de likes
+./venv/bin/python scraper_simple.py --profiles 3 --like-rate 0.2
+
+# Ver ayuda
+./venv/bin/python scraper_simple.py --help
+```
+
+## ⚙️ Configuración
+
+Edita `config_simple.json` para personalizar:
+
+```json
+{
+    "num_profiles": 10,
+    "like_probability": 0.151,
+    "output_file": "val_HbM.json",
+    "save_screenshots": true,
+    "template_path": "template/tick_icon.png"
+}
+```
+
+## 📊 Datos Extraídos
+
+- **Información básica**: Nombre, edad, verificación, bio
+- **Detalles**: Altura, distancia, ubicación, idiomas
+- **Preferencias**: Orientación, género, tipo de relación
+- **Estilo de vida**: Educación, trabajo, mascotas, hábitos
+- **Personalidad**: Horóscopo, MBTI, intereses
+- **Multimedia**: URLs de imágenes, canción favorita
+
+## 📁 Estructura
+
+```
+├── scraper_simple.py      # Archivo principal
+├── config_simple.json     # Configuración
+├── requirements.txt       # Dependencias Python
+├── template/             # Iconos para verificación
+├── screenshots/          # Capturas temporales (se limpian automáticamente)
+├── output/              # Archivos JSON de salida
+└── venv/               # Entorno virtual Python
+```
+
+## 🔧 Requisitos
+
+- Python 3.8+
+- Chrome/Chromium browser
+- Tesseract OCR instalado
+
+### Instalación de Tesseract
+```bash
+# Ubuntu/Debian
+sudo apt install tesseract-ocr
+
+# macOS
+brew install tesseract
+
+# Windows
+# Descargar desde: https://github.com/UB-Mannheim/tesseract/wiki
+```
+
+## 📋 Antes de Usar
+
+1. **Inicia sesión en Tinder** manualmente en Chrome
+2. **Acepta cookies** y permisos necesarios
+3. **Cierra popups** si los hay
+4. **Opcional**: Añade `template/tick_icon.png` para detectar verificaciones
+
+## 🎯 Tareas de VS Code
+
+- `Run Simple Scraper (Basic)`: Ejecuta con configuración por defecto
+- `Run Simple Scraper (5 profiles)`: Extrae 5 perfiles
+- `Run Simple Scraper (10 profiles)`: Extrae 10 perfiles
+- `Help - Simple Scraper`: Muestra ayuda
+
+## 📄 Salida
+
+Los perfiles se guardan en `val_HbM.json` con estructura:
+
+```json
+{
+  "id": "nombre_20241207_143022",
+  "nombre": "Ana",
+  "edad": "25",
+  "verificado": "Yes",
+  "bio": "Estudiante de medicina...",
+  "altura": "165 cm",
+  "distancia": "5 km",
+  "intereses": ["Música", "Viajes"],
+  "imagenes": ["https://..."]
+}
+```
+
+## ⚖️ Consideraciones Éticas
+
+- Respeta la privacidad de los usuarios
+- No uses los datos para hostigamiento
+- Cumple con regulaciones locales
+- Uso únicamente para investigación legítimaer Scraper ES
+
 🔍 Una herramienta simple y modular para extraer perfiles de Tinder con fines de investigación académica.
 
 ## ⚠️ Aviso Legal

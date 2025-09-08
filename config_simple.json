@@ -1,0 +1,42 @@
+{
+    "scraping": {
+        "num_profiles": 10,
+        "like_probability": 0.151,
+        "save_interval": 10,
+        "max_retries": 3,
+        "scroll_attempts": 3,
+        "timeout_minutes": 1,
+        "max_scrolls_sin_cambios": 3
+    },
+    "browser": {
+        "headless": false,
+        "window_size": "maximized",
+        "disable_automation_flags": true,
+        "chrome_type": "auto"
+    },
+    "ocr": {
+        "max_attempts": 3,
+        "verification_threshold": 0.75,
+        "tesseract_config": "--oem 3 --psm 6"
+    },
+    "output": {
+        "filename": "val_HbM.json",
+        "save_screenshots": true,
+        "clean_screenshots_after_verification": true,
+        "output_directory": "output",
+        "screenshots_directory": "screenshots",
+        "template_directory": "template"
+    },
+    "categories": {
+        "horoscopo": ["Capricornio", "Acuario", "Piscis", "Aries", "Tauro", "Géminis", "Cáncer", "Leo", "Virgo", "Libra", "Escorpio", "Sagitario"],
+        "educacion": ["Licenciatura", "En la uni", "ESO", "Doctorado", "Posgrado", "Máster", "Escuela taller"],
+        "hijos": ["Quiero tener hijxs", "No quiero tener hijxs", "Tengo hijxs y me gustaría tener más", "Tengo hijxs, pero no quiero tener más", "Todavía no lo sé"],
+        "vacunacion": ["¡Me he vacunado!", "Sin vacunar", "Prefiero no decirlo"],
+        "personalidad": ["INTJ", "INTP", "ENTJ", "ENTP", "INFJ", "INFP", "ENFJ", "ENFP", "ISTJ", "ISFJ", "ESTJ", "ESFJ", "ISTP", "ISFP", "ESTP", "ESFP"],
+        "comunicacion": ["Chateo mucho", "Me gusta llamar", "Por videochat", "No escribo mucho", "Mejor en persona"],
+        "amor": ["Detalles significativos", "Regalos", "Contacto físico", "Me digan cosas bonitas", "Tiempo de calidad"],
+        "orientation_options": ["Heterosexual", "Gay", "Lesbiana", "Bisexual", "Asexual", "Demisexual", "Pansexual", "Queer", "Tengo dudas", "Arrománticx", "Omnisexual"],
+        "gender_options": ["Hombre", "Hombre cis", "Hombre intersexual", "Hombre trans", "Persona transmasculina", "Mujer", "Mujer cis", "Mujer intersexual", "Mujer trans", "Persona transfemenina", "Más allá del modelo binario", "Agénero", "Bigénero", "Género fluido", "Cuestionándose", "Genderqueer", "Intersexual", "No binario", "Pangénero", "Persona trans", "Dos espíritus"],
+        "relationship_terms": ["Monogamia", "No monogamia ética", "Relación abierta", "Poliamor", "Estoy abiertx a explorar"]
+    }
+}

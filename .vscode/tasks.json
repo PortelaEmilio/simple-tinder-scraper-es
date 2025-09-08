@@ -1,0 +1,54 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Simple Scraper (Basic)",
+			"type": "shell",
+			"command": "./venv/bin/python",
+			"args": [
+				"scraper_simple.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Run Simple Scraper (5 profiles)",
+			"type": "shell",
+			"command": "./venv/bin/python",
+			"args": [
+				"scraper_simple.py",
+				"--profiles",
+				"5"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Run Simple Scraper (10 profiles)",
+			"type": "shell",
+			"command": "./venv/bin/python",
+			"args": [
+				"scraper_simple.py",
+				"--profiles",
+				"10"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Help - Simple Scraper",
+			"type": "shell",
+			"command": "./venv/bin/python",
+			"args": [
+				"scraper_simple.py",
+				"--help"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
