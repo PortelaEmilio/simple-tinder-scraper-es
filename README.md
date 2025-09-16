@@ -2,6 +2,15 @@
 
 🔍 Herramienta simple para extraer perfiles de Tinder con fines de investigación académica.
 
+## �� Demostración
+
+<video controls width="600">
+  <source src="assets/demo.webm" type="video/webm">
+  Tu navegador no soporta la reproducción de video HTML5.
+</video>
+
+*Video demostrativo del funcionamiento del scraper (censurado para proteger la privacidad)*
+
 ## ✅ Estado: COMPLETAMENTE FUNCIONAL
 
 - ✅ **Scraper operativo** - `scraper_simple.py` funcionando al 100%
@@ -75,6 +84,7 @@ Edita `config_simple.json` para personalizar:
 ├── template/             # Iconos para verificación
 ├── screenshots/          # Capturas temporales (se limpian automáticamente)
 ├── output/              # Archivos JSON de salida
+├── assets/              # Recursos multimedia (videos, demos)
 └── venv/               # Entorno virtual Python
 ```
 
@@ -133,7 +143,7 @@ Los perfiles se guardan en `val_HbM.json` con estructura:
 - Respeta la privacidad de los usuarios
 - No uses los datos para hostigamiento
 - Cumple con regulaciones locales
-- Uso únicamente para investigación legítimaer Scraper ES
+- Uso únicamente para investigación legítima
 
 **El usuario es responsable del uso ético y legal de esta herramienta.**
 
@@ -268,6 +278,7 @@ simple-tinder-scraper-es/
 │   └── tick_icon.png      # Plantilla del icono de verificación
 ├── output/                # Archivos JSON de salida
 ├── screenshots/           # Capturas temporales
+├── assets/                # Recursos multimedia (videos, demos)
 ├── main.py               # Punto de entrada CLI
 ├── setup.sh              # Script de instalación automatizada
 ├── requirements.txt      # Dependencias Python
