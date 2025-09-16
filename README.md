@@ -2,15 +2,30 @@
 
 🔍 Herramienta simple para extraer perfiles de Tinder con fines de investigación académica.
 
-## �� Demostración
+## 🎥 Demostración
 
-<video controls width="600">
-  <source src="assets/demo.webm" type="video/webm">
-  Tu navegador no soporta la reproducción de video HTML5.
-</video>
+### 📹 Video Demo Interactivo
 
-*Video demostrativo del funcionamiento del scraper (censurado para proteger la privacidad)*
+**[▶️ CLIC AQUÍ PARA VER EL VIDEO COMPLETO](https://github.com/PortelaEmilio/simple-tinder-scraper-es/raw/main/assets/demo.webm)**
 
+> 🎬 **Demo del scraper en acción** - Muestra el proceso completo de extracción de perfiles de Tinder con contenido censurado para proteger la privacidad de los usuarios.
+
+### Opciones de Visualización:
+
+1. **📱 Descarga Directa**: [Descargar Video (41MB)](https://github.com/PortelaEmilio/simple-tinder-scraper-es/raw/main/assets/demo.webm)
+2. **💻 Navegador**: Clic en el enlace de arriba para reproducir
+3. **📂 Local**: Clona el repo y abre `assets/demo.webm`
+
+![Demo Preview](https://img.shields.io/badge/🎥_Demo-Disponible-success?style=for-the-badge&logo=play&logoColor=white)
+
+**Características mostradas en el video:**
+- ✅ Navegación automática por perfiles
+- 🔍 Extracción de datos en tiempo real  
+- 📊 Procesamiento OCR de verificaciones
+- 💾 Guardado automático en JSON
+- 🛡️ Protección de privacidad (contenido censurado)
+
+---
 ## ✅ Estado: COMPLETAMENTE FUNCIONAL
 
 - ✅ **Scraper operativo** - `scraper_simple.py` funcionando al 100%
